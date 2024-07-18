@@ -38,11 +38,6 @@ Cable faults, such as short circuits, open circuits, and cable breakages, can le
 - **Slide Switches**: Used to simulate faults manually.
 - **Power Supply**: Provides power to the Arduino and LCD&#8203;:citation[oaicite:5]{index=5}&#8203;.
 
-### Block Diagram
-![Block Diagram](block_diagram.png)
-
-### Circuit Diagram
-![Circuit Diagram](circuit_diagram.png)
 
 ### Working
 The system uses Ohm's law to determine the fault location. When a fault occurs, the voltage change across the resistor is fed to the Analog to Digital Converter (ADC) of the Arduino. The Arduino computes the distance of the fault and displays it on the LCD. The slide switches simulate faults, and each series resistor represents a specific distance of the cable&#8203;:citation[oaicite:4]{index=4}&#8203;.
