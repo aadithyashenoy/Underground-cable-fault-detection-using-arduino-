@@ -17,12 +17,6 @@ Cable faults pose significant challenges in power transmission and distribution 
 - Analog to Digital Converter (ADC)
 - Fault switches
 
-### Block Diagram
-[Include a block diagram image here]
-
-### Circuit Diagram
-[Include a circuit diagram image here]
-
 ### Working
 The system applies DC voltage across a series of resistors representing the cable. The current varies depending on the fault location, and this change is fed to the Arduino via an ADC. The Arduino calculates the fault distance and displays it on the LCD.
 
