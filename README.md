@@ -10,8 +10,6 @@ Cable fault detection is a crucial task in maintaining and optimizing the perfor
 - [Objectives](#objectives)
 - [Methodology](#methodology)
   - [Components Used](#components-used)
-  - [Block Diagram](#block-diagram)
-  - [Circuit Diagram](#circuit-diagram)
   - [Working](#working)
 - [Results and Discussion](#results-and-discussion)
   - [Output](#output)
