@@ -1,6 +1,5 @@
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(2,3,4,5,6,7);
-
 #define sensor A0  
 
 #define relay1 8
@@ -28,7 +27,6 @@ pinMode(sensor,INPUT);
 pinMode(relay1, OUTPUT);
 pinMode(relay2, OUTPUT);
 pinMode(relay3, OUTPUT);
-
 pinMode(buzzer, OUTPUT);
 
 lcd.createChar(1, symbol);
@@ -104,4 +102,3 @@ digitalWrite(buzzer,LOW);
 delay(200);
  }
 }
-
