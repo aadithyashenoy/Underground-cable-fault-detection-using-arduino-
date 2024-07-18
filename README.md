@@ -1,30 +1,29 @@
-# Cable Fault Detection
+# Cable Fault Detection Project
 
-This project focuses on detecting cable faults in power transmission and distribution systems. The detection system utilizes the concept of Ohm's law to determine the distance from the base station to the cable fault location. This project is developed as part of the Bachelor of Engineering degree requirements in Electronics and Communication Engineering.
+## Overview
+Cable fault detection is a crucial task in maintaining and optimizing the performance of power transmission and distribution systems. This project focuses on determining the distance from the base station to the cable fault location using the principles of Ohm’s law. The detected fault location is displayed on an LCD screen.
 
-## Abstract
-Cable fault detection is crucial for maintaining the reliability of electrical networks by minimizing downtime and reducing repair costs. This project aims to detect the exact location of faults in cables using a simple implementation based on Ohm’s law. When a fault occurs, the distance to the fault is displayed on a liquid crystal display (LCD).
+## Features
+- Detects short circuit and open circuit faults.
+- Displays the exact fault location in kilometers.
+- Cost-effective and customizable solution.
+- Suitable for both professional and educational purposes.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Components](#components)
+5. [Methodology](#methodology)
+6. [Results](#results)
+7. [Contributors](#contributors)
+8. [License](#license)
 
 ## Introduction
-Cable faults pose significant challenges in power transmission and distribution systems. Detecting cable faults promptly is essential for maintaining system integrity and minimizing power outages. This project uses advanced fault detection techniques to improve accuracy, reduce downtime, and enhance system reliability.
+This project is developed to address the challenges posed by cable faults in power transmission and distribution systems. Faults can be caused by insulation deterioration, mechanical damage, or environmental factors, leading to system inefficiencies and power outages. The traditional methods of fault detection are time-consuming and often unreliable. This project aims to provide a more efficient and accurate solution.
 
-## Methodology
-### Components Used
-- Arduino Microcontroller
-- Series resistors
-- DC power supply
-- Liquid Crystal Display (LCD)
-- Analog to Digital Converter (ADC)
-- Fault switches
+## Installation
+To get started with this project, clone the repository and set up the necessary hardware components.
 
-### Working
-The system applies DC voltage across a series of resistors representing the cable. The current varies depending on the fault location, and this change is fed to the Arduino via an ADC. The Arduino calculates the fault distance and displays it on the LCD.
-
-## Results
-The system accurately detects faults and displays the distance to the fault on the LCD for all three phases.
-
-## Future Scope
-The project can be further enhanced by integrating IoT for remote monitoring and real-time data analysis to improve fault detection and system reliability.
-
-## Conclusion
-The proposed cable fault detection system offers a cost-effective and accessible solution for detecting and monitoring faults in cables, making it valuable for both professionals and educational purposes.
+```bash
+git clone https://github.com/yourusername/cable-fault-detection.git
